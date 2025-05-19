@@ -1,0 +1,124 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Primary User Journey - Student Project Submission</text>
+  
+  <!-- Start -->
+  <ellipse cx="100" cy="80" rx="60" ry="25" fill="#28a745" stroke="#1e7e34" stroke-width="2"/>
+  <text x="100" y="87" font-family="Arial" font-size="12" fill="white" text-anchor="middle">START</text>
+  
+  <!-- Step 1: Login -->
+  <rect x="50" y="140" width="100" height="60" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="100" y="165" font-family="Arial" font-size="11" text-anchor="middle">Access Platform</text>
+  <text x="100" y="185" font-family="Arial" font-size="11" text-anchor="middle">(Login/Auth)</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="100" y1="105" x2="100" y2="135" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: Browse Gallery -->
+  <rect x="200" y="140" width="100" height="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="5"/>
+  <text x="250" y="165" font-family="Arial" font-size="11" text-anchor="middle">Browse Project</text>
+  <text x="250" y="185" font-family="Arial" font-size="11" text-anchor="middle">Gallery</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="150" y1="170" x2="195" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Decision Diamond: Upload or View -->
+  <path d="M 350 140 L 400 170 L 350 200 L 300 170 Z" fill="#fff3e0" stroke="#f57f17" stroke-width="2"/>
+  <text x="350" y="165" font-family="Arial" font-size="10" text-anchor="middle">Upload new</text>
+  <text x="350" y="180" font-family="Arial" font-size="10" text-anchor="middle">project?</text>
+  
+  <!-- Arrow 3 -->
+  <line x1="300" y1="170" x2="295" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Branch 1: Upload Project -->
+  <rect x="450" y="140" width="100" height="60" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="500" y="165" font-family="Arial" font-size="11" text-anchor="middle">Upload Project</text>
+  <text x="500" y="185" font-family="Arial" font-size="11" text-anchor="middle">Form</text>
+  
+  <!-- Arrow to upload -->
+  <line x1="400" y1="170" x2="445" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="425" y="160" font-family="Arial" font-size="9">Yes</text>
+  
+  <!-- Branch 2: View Project Details -->
+  <rect x="300" y="260" width="100" height="60" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="5"/>
+  <text x="350" y="285" font-family="Arial" font-size="11" text-anchor="middle">View Project</text>
+  <text x="350" y="305" font-family="Arial" font-size="11" text-anchor="middle">Details</text>
+  
+  <!-- Arrow to view -->
+  <line x1="350" y1="200" x2="350" y2="255" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="365" y="230" font-family="Arial" font-size="9">No</text>
+  
+  <!-- Upload substeps -->
+  <rect x="580" y="100" width="120" height="40" fill="#f1f8e9" stroke="#689f38" stroke-width="1" rx="3"/>
+  <text x="640" y="125" font-family="Arial" font-size="10" text-anchor="middle">Fill Project Info</text>
+  
+  <rect x="580" y="150" width="120" height="40" fill="#f1f8e9" stroke="#689f38" stroke-width="1" rx="3"/>
+  <text x="640" y="175" font-family="Arial" font-size="10" text-anchor="middle">Upload Files</text>
+  
+  <rect x="580" y="200" width="120" height="40" fill="#f1f8e9" stroke="#689f38" stroke-width="1" rx="3"/>
+  <text x="640" y="225" font-family="Arial" font-size="10" text-anchor="middle">Submit Project</text>
+  
+  <!-- Arrows for upload flow -->
+  <line x1="550" y1="170" x2="575" y2="170" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="640" y1="140" x2="640" y2="145" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="640" y1="190" x2="640" y2="195" stroke="#333" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Success/Feedback -->
+  <rect x="520" y="300" width="120" height="60" fill="#e1f5fe" stroke="#0277bd" stroke-width="2" rx="5"/>
+  <text x="580" y="325" font-family="Arial" font-size="11" text-anchor="middle">Receive Feedback</text>
+  <text x="580" y="345" font-family="Arial" font-size="11" text-anchor="middle">& Reviews</text>
+  
+  <!-- Convergence arrows -->
+  <line x1="640" y1="240" x2="640" y2="295" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="290" x2="515" y2="330" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Iterate -->
+  <rect x="420" y="420" width="120" height="60" fill="#fff8e1" stroke="#fbc02d" stroke-width="2" rx="5"/>
+  <text x="480" y="445" font-family="Arial" font-size="11" text-anchor="middle">Update/Improve</text>
+  <text x="480" y="465" font-family="Arial" font-size="11" text-anchor="middle">Project</text>
+  
+  <!-- Arrow to iterate -->
+  <line x1="560" y1="360" x2="500" y2="415" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Loop back arrow -->
+  <path d="M 420 450 Q 250 500 250 370 Q 250 250 350 260" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <text x="280" y="470" font-family="Arial" font-size="10" fill="#666">Iterate & Improve</text>
+  
+  <!-- End -->
+  <ellipse cx="480" cy="540" rx="60" ry="25" fill="#f44336" stroke="#d32f2f" stroke-width="2"/>
+  <text x="480" y="547" font-family="Arial" font-size="12" fill="white" text-anchor="middle">END</text>
+  
+  <!-- Final arrow -->
+  <line x1="480" y1="480" x2="480" y2="515" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Legend -->
+  <rect x="50" y="580" width="400" height="110" fill="none" stroke="#333" stroke-width="1" rx="5"/>
+  <text x="250" y="605" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">User Journey Legend</text>
+  
+  <rect x="70" y="620" width="15" height="15" fill="#e3f2fd" stroke="#1976d2"/>
+  <text x="95" y="632" font-family="Arial" font-size="11">Authentication & Access</text>
+  
+  <rect x="70" y="640" width="15" height="15" fill="#f3e5f5" stroke="#7b1fa2"/>
+  <text x="95" y="652" font-family="Arial" font-size="11">Browse & Search</text>
+  
+  <rect x="70" y="660" width="15" height="15" fill="#e8f5e9" stroke="#388e3c"/>
+  <text x="95" y="672" font-family="Arial" font-size="11">Upload & Submission</text>
+  
+  <rect x="260" y="620" width="15" height="15" fill="#e1f5fe" stroke="#0277bd"/>
+  <text x="285" y="632" font-family="Arial" font-size="11">Review & Feedback</text>
+  
+  <rect x="260" y="640" width="15" height="15" fill="#fff8e1" stroke="#fbc02d"/>
+  <text x="285" y="652" font-family="Arial" font-size="11">Iteration & Updates</text>
+  
+  <path d="M 260 660 L 275 660" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="285" y="667" font-family="Arial" font-size="11">Feedback Loop</text>
+  
+  <!-- Notes -->
+  <text x="60" y="620" font-family="Arial" font-size="10" fill="#666">Note: Dashed arrows indicate optional/iterative paths</text>
+</svg>

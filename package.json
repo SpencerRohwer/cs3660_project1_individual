@@ -1,0 +1,28 @@
+{
+  "name": "resources-hub-extractor",
+  "version": "1.0.0",
+  "description": "Extract Resources Hub project files from YAML configuration",
+  "main": "extractor.js",
+  "scripts": {
+    "extract": "node extractor.js",
+    "start": "npm run extract",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "bin": {
+    "resources-hub-extract": "./extractor.js"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  },
+  "keywords": [
+    "project-extractor",
+    "yaml",
+    "file-generator",
+    "resources-hub"
+  ],
+  "author": "Resources Hub Development Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
